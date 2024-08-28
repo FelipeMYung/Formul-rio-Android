@@ -16,13 +16,26 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Button btnCaptura = findViewById(R.id.btnCadastrar);
-        EditText nome = findViewById(R.id.Nome);
+        EditText getnome = findViewById(R.id.Nome);
+        EditText getIdade = findViewById(R.id.idade);
+        EditText getCPF =  findViewById(R.id.CPF);
+        EditText getEmail = findViewById(R.id.email);
 
         btnCaptura.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent Main = new Intent(getApplicationContext(), Dados.class);
-                startActivity(Main);
+
+                String nome = getnome.getText().toString();
+                String idade = getIdade.getText().toString();
+                String CPF = getCPF.getText().toString();
+                String Email = getEmail.getText().toString();
+                Intent tela = new Intent(getApplicationContext(), Dados.class);
+                tela.putExtra("nome", nome);
+                tela.putExtra("idade", idade);
+                tela.putExtra("CPF", CPF);
+                tela.putExtra("Email", Email);
+
+                startActivity(tela);
             }
         });
     }
