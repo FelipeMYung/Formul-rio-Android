@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/fundo"
     tools:context=".MainActivity">
 
     <EditText
@@ -12,6 +13,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="Nome"
+        android:textColorHint="@color/white"
         android:inputType="text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -26,6 +28,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="Idade"
+        android:textColorHint="@color/white"
         android:inputType="number"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -40,6 +43,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="CPF"
+        android:textColorHint="@color/white"
         android:inputType="number"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -54,6 +58,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="Email"
+        android:textColorHint="@color/white"
         android:inputType="textEmailAddress"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
