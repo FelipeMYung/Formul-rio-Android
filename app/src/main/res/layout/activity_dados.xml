@@ -22,30 +22,46 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TextView"
-        tools:layout_editor_absoluteX="176dp"
-        tools:layout_editor_absoluteY="188dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.259" />
 
     <TextView
         android:id="@+id/telaIdade"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TextView"
-        tools:layout_editor_absoluteX="178dp"
-        tools:layout_editor_absoluteY="230dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.324" />
 
     <TextView
         android:id="@+id/telaCPF"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TextView"
-        tools:layout_editor_absoluteX="181dp"
-        tools:layout_editor_absoluteY="281dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.398" />
 
     <TextView
         android:id="@+id/telaEmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TextView"
-        tools:layout_editor_absoluteX="181dp"
-        tools:layout_editor_absoluteY="328dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.466" />
 </androidx.constraintlayout.widget.ConstraintLayout>
